@@ -1,0 +1,60 @@
+{
+  "stocks": [
+    {
+      "id": "1",
+      "company": "Twitter Inc",
+      "ticker": "TWTR",
+      "stockPrice": 22.76,
+      "timeElapsed": "5 sec ago"
+    },
+    {
+      "id": "2",
+      "company": "Square Inc",
+      "ticker": "SQ",
+      "stockPrice": 45.28,
+      "timeElapsed": "10 sec ago"
+    },
+    {
+      "id": "3",
+      "company": "Shopify Inc",
+      "ticker": "SHOP",
+      "stockPrice": "241.79",
+      "timeElapsed": "3 sec ago"
+    },
+    {
+      "id": "4",
+      "company": "Sunrun Inc",
+      "ticker": "RUN",
+      "stockPrice": 9.87,
+      "timeElapsed": "4 sec ago"
+    },
+    {
+      "id": "5",
+      "company": "Adobe Inc",
+      "ticker": "ADBE",
+      "stockPrice": 300.99,
+      "timeElapsed": "10 sec ago"
+    },
+    {
+      "id": "6",
+      "company": "HubSpot Inc",
+      "ticker": "HUBS",
+      "stockPrice": 115.22,
+      "timeElapsed": "12 sec ago"
+    },
+    {
+      "id": "8066",
+      "company": "Digital Karawang",
+      "ticker": "DK",
+      "stockPrice": "79.9",
+      "timeElapsed": "10 sec ago"
+    },
+    {
+      "company": "Surya Digital",
+      "ticker": "SDG",
+      "stockPrice": 786.8,
+      "timeElapsed": "5 sec ago",
+      "id": "6696"
+    }
+  ]
+}
