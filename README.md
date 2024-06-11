@@ -36,13 +36,9 @@ Aplikasi Stock Management System adalah aplikasi web sederhana yang dibuat untuk
 Untuk menjalankan aplikasi ini di lokal Anda, ikuti langkah-langkah berikut:
 
 1. **Clone Repository**
-2. **Instalasi Dependencies**
-3. **Jalankan Aplikasi**
-
-## Cara Jalankan
-
-1. **Jalankan Server** `json-server --watch data.json --port 3001`
-2. **Jalankan Aplikasi** `npm run start`
+2. **Instalasi Dependencies** `npm install`
+3. **Jalankan Server** `json-server --watch data.json --port 3009` (install terlebih dahulu json-server jika belum `npm install -g json-server`)
+4. **Jalankan Aplikasi** `npm run start`
 
 Server berjalan di `http://localhost:3009/stocks`
 Aplikasi akan berjalan di `http://localhost:3000`.
