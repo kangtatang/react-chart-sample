@@ -33,13 +33,6 @@ const EditStock = () => {
     fetchStock();
   }, [id]);
 
-  //   const handleChange = (e) => {
-  //     setStock({
-  //       ...stock,
-  //       [e.target.name]: e.target.value
-  //     });
-  //   };
-
   const validationSchema = Yup.object({
     company: Yup.string().required("Company name is required."),
     ticker: Yup.string().required("Ticker is required."),
@@ -62,22 +55,10 @@ const EditStock = () => {
         })
         .catch((error) => {
           console.error("Error updating stock:", error);
-          toast.error('Failed to edit stock.');
+          toast.error("Failed to edit stock.");
         });
     },
   });
-
-  //   const handleSubmit = async (e) => {
-  //     e.preventDefault();
-  //     try {
-  //       await axios.put(`http://localhost:3009/stocks/${id}`, stock);
-  //       toast.success('Stock updated successfully!');
-  //       navigate('/stock-list');
-  //     } catch (error) {
-  //       console.error('Error updating stock:', error);
-  //       toast.error('Failed to update stock.');
-  //     }
-  //   };
 
   const handleCancel = () => {
     navigate("/stock-list");
