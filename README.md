@@ -1,5 +1,6 @@
 # Stock Management System
 
+!["tampilan Aplikasi"](https://lh3.googleusercontent.com/pw/AP1GczNltWASkeQ33eQXgfQEKEcOE4ez7IXRuJP5sgftBXvSJl62JVtYVHZwgZw_4YysVXr2US9szxjAu5JDcBflPzy4NQxDfOLBY-S4SHvatW8wWnwPhryo8L4UbNunos0uKBLl0NFifdjGb5onRHqUDBNT=w1597-h777-s-no-gm?authuser=0)
 ## Deskripsi Aplikasi
 
 Aplikasi Stock Management System adalah aplikasi web sederhana yang dibuat untuk bahan pembelajaran dalam menggunakan crud pada react JS dan menampilkan data pada bar chart menggunakan react-reactjs-2. Aplikasi ini memungkinkan pengguna untuk menambah, mengedit, dan menghapus data stok. Selain itu, aplikasi ini juga menyediakan fitur pencarian untuk memudahkan pengguna dalam mengelola data.
