@@ -1,0 +1,152 @@
+/* Common styles for the application */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #004085; /* Dark blue background */
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-brand, .nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #ccc;
+  background-color: #002752; /* Slightly darker blue on hover */
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display nav items in a row */
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px; /* Space between nav items */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column; /* Stack nav items vertically on small screens */
+  }
+}
+
+/* Form styles */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Tengahkan item-item di dalam container secara horizontal */
+  justify-content: center; /* Tengahkan container secara vertikal jika perlu */
+  width: 100%;
+  max-width: 500px; /* Batasi lebar maksimal form */
+  margin: 50px auto; /* Tengahkan form secara horizontal dan beri margin atas bawah */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Tambahkan sedikit shadow untuk depth */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* Background putih */
+}
+
+.form-input {
+  width: 100%; /* Buat input memenuhi lebar container */
+  padding: 8px;
+  margin-bottom: 15px; /* Beri jarak antar input */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-label {
+  align-self: flex-start; /* Mulai label dari sisi kiri */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-button {
+  width: 100%; /* Buat button memenuhi lebar container */
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling untuk container tabel */
+.table-container {
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  padding: 20px;
+}
+
+/* Styling untuk tabel */
+.table {
+  width: 100%; /* Atur lebar tabel */
+  /* max-width: 800px; Batasi lebar maksimal tabel */
+  margin: 20px 0;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd; /* Tambahkan border */
+}
+
+.table th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Styling untuk input dan link */
+.input-search, .add-link {
+  margin: 10px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-link {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.add-link:hover {
+  background-color: #0056b3;
+}
+
+body{
+    background: rgb(134,129,224);
+background: linear-gradient(90deg, rgba(134,129,224,1) 0%, rgba(220,220,247,1) 50%, rgba(126,196,210,1) 100%);
+}
