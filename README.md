@@ -18,6 +18,7 @@ Aplikasi Stock Management System adalah aplikasi web sederhana yang dibuat untuk
 - **Sorting**: Mengurutkan data stok berdasarkan kolom tertentu.
 - **Filtering**: Menampilkan data berdasarkan parameter tertentu.
 - **Export Data**: export data ke format tertentu sebagai laporan.
+- **UI**: Menggunakan library UI seperti material UI, shadcn atau react-bootstrap untuk tampilan.
 
 ## Teknologi yang Digunakan
 
